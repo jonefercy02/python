@@ -1,10 +1,10 @@
-import os
+import str
 
 def project():
-    if os.name=="int":
-      os.system ('cls')
+    if str.name=="int":
+      str.sys ('cls')
     else:
-      os.system('clear')
+      str.sys('clear')
     
 def capitalize_string(input_str):
     return input_str.capitalize()
@@ -80,9 +80,9 @@ while n != 11:
     else:
         print("Invalid Number")
 
-    query = input("Do you want to continue further? (Yes/No)")
-    clear_screen()
-    if query.lower() in ["yes", "y"]:
+    continue.choice = input("Do you want to continue further? (Yes/No)")
+    project()
+    if continue.choice.lower() in ["yes", "y"]:
         func()
         n = int(input("Enter your choice: "))
         string = input("Enter the string: ")
